@@ -1,10 +1,12 @@
 ---
-Title: Me
-Description: This is our index page.
+Title: Home
+Description: This is my index/home page.
 ---
 
-Me-sida
+Home
 ==========================
+
+Detta är min startsida för kursen design på BTH.
 
 Vem är då jag? Pontus Åkerberg heter jag, 34 år gammal och uppväxt strax utanför Karlstad. Efter att ha bott och jobbat i ca ett decennium i grannlandet i väst bor jag numer utanför Sunne tillsammans med min sambo. Har haft många olika typer av jobb under mitt arbetsliv, men kände att jag ville satsa på något nytt och läser nu Webbprogrammering via distans på BTH.
 
