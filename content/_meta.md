@@ -1,5 +1,5 @@
 ---
-Logo: assets/img/leaf_256x256.png
+Logo: image/me_airtime.jpg
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
