@@ -1,9 +1,9 @@
 ---
-Title: Home
+Title: Hem
 Description: This is my index/home page.
 ---
 
-Home
+Hem
 ==========================
 
 Detta är min startsida för kursen design på BTH.

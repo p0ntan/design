@@ -1,8 +1,8 @@
 ---
 Logo: image/me_airtime.jpg
-Tagline: My portfolio.
+Tagline: Min portfolio.
 Social:
-    - title: Link till sidans github repo.
+    - title: Länk till sidans github repo.
       url: https://github.com/p0ntan/design
       icon: github
 ---
