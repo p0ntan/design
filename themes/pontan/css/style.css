@@ -92,6 +92,10 @@ body {
         max-width: 30%;
         padding: 1em 1em 1em 1em;
     }
+
+    .main {
+        margin: 0;
+    }
 }
 
 .title * {
