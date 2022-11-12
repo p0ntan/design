@@ -1,0 +1,197 @@
+// Import for Font Awesome
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+// Google Font import
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Spectral&display=swap');
+
+// Other imports
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import 'blockquotes';
+@import 'code';
+@import 'mobile-menu';
+@import 'test';
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Spectral', serif;   
+}
+
+body {
+    background-color: $background-color;
+    font-size: 100%;
+}
+
+ol,
+ul {
+    margin-bottom: calc($font-size * $line-height);
+    padding-left: 1.5em;
+}
+
+p {
+    font-size: $font-size;
+    margin-bottom: calc($font-size * $line-height);
+}
+
+table {
+    margin-bottom: calc($font-size * $line-height);
+}
+
+.hidden {
+    display: none !important;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/* Placement */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    max-width: calc(60rem / 1.2);
+    padding: 1em;
+    margin: auto;
+    flex: 1 0 auto;
+}
+
+.header,
+.footer {
+    flex: 0 0 auto;
+    margin: auto;
+    width: 100%;
+}
+
+/* Header */
+
+.header,
+.site-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header {
+    background-color: $background-alternative-color;
+    box-shadow: 0 0 10px 1px $box-shadow-color;
+    margin-bottom: 1em;
+
+    a,
+    p,
+    h1 {
+        color: $font-alternative-color;
+        text-shadow: 0 0 10px $box-shadow-color;
+    }
+}
+
+/* Title */
+
+.title {
+    padding: 3em 3em 3em 0;
+
+    p {
+        font-style: italic;
+    }
+}
+
+.logo {
+    padding: 2rem;
+
+    img {
+        border-radius: 50%;
+        width: 120px;
+        box-shadow: 
+        0 0 2px 2px $box-shadow-color-white,
+        0 0 10px 10px $box-shadow-color;
+    }
+}
+
+@media (max-width: 767px) {
+    .title {
+        min-width: 50%;
+        padding: 1em 1em 1em 0;
+    }
+
+    .logo {
+        max-width: 30%;
+        padding: 1rem;
+    }
+
+    .main {
+        margin: 0;
+    }
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #222;
+    padding: 0.5rem;
+    
+    a {
+        color: $font-color;
+        text-decoration: none;
+    }
+
+    .social {
+        font-size: 2rem;
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+    }
+}
+
+/* Typografy */
+
+body {
+    line-height: $line-height;
+    color: $font-color;
+}
+
+p,
+td,
+th,
+li,
+dd {
+    font-size: $font-size;
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Images */
+
+.garda {
+    box-shadow: 3px 3px 10px 2px #395774;
+    width: 80%;
+    display: block;
+    margin: 1em auto;
+}

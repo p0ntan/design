@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
+$base-color: #333;
+
+@mixin size-margin {
+    font-size: 1.2em;
+    margin-bottom: 1.54em;
+    line-height: 1.4;
+    color: $base-color;
+}
+
+.old-fashioned {
+    @include size-margin;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+.modern {
+    @include size-margin;
+    font-family: 'Sono', sans-serif;
+}
+
+.worst-ever {
+    font-weight: 900;
+    color: #f00;
+    letter-spacing: 2px;
+    line-height: 0.9;
+    background-color: #ff0;
+}
