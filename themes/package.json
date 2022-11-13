@@ -9,7 +9,9 @@
   "scripts": {
     "lint": "stylelint \"**/*.scss\"",
     "style": "sass pontan/scss/style.scss pontan/css/style.css --no-source-map",
-    "style-min": "sass pontan/scss/style.scss pontan/css/style.min.css --no-source-map --style compressed"
+    "style-min": "sass pontan/scss/style.scss pontan/css/style.min.css --no-source-map --style compressed",
+    "watch": "sass pontan/scss/style.scss pontan/css/style.css --no-source-map --watch",
+    "watch-min": "sass pontan/scss/style.scss pontan/css/style.min.css --no-source-map --style compressed --watch"
   },
   "keywords": [],
   "author": "",

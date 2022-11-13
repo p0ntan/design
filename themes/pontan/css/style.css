@@ -6661,11 +6661,16 @@ body {
   color: #444;
   text-decoration: none;
 }
+.footer div {
+  display: flex;
+  align-items: center;
+}
+.footer p {
+  margin: 0;
+}
 .footer .social {
   font-size: 2rem;
-  display: flex;
   gap: 0.5rem;
-  align-items: center;
 }
 
 /* Typografy */
@@ -6696,11 +6701,11 @@ h6 {
   font-weight: bold;
 }
 
+/* Images */
 img {
   max-width: 100%;
 }
 
-/* Images */
 .garda {
   box-shadow: 3px 3px 10px 2px #395774;
   width: 80%;

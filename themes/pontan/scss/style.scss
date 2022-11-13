@@ -151,11 +151,18 @@ body {
         text-decoration: none;
     }
 
+    div {
+        display: flex;
+        align-items: center;
+    }
+
+    p {
+        margin: 0;
+    }
+
     .social {
         font-size: 2rem;
-        display: flex;
         gap: 0.5rem;
-        align-items: center;
     }
 }
 
@@ -188,11 +195,11 @@ h6 {
     font-weight: bold;
 }
 
+/* Images */
+
 img {
     max-width: 100%;
 }
-
-/* Images */
 
 .garda {
     box-shadow: 3px 3px 10px 2px #395774;

@@ -1,6 +1,7 @@
 ---
 Title: Analys
 Description: This is a page for writing analyzed reports.
+Hidden: 1
 ---
 
 Typsnitt på de 5 mest besökta webbplatserna i Sverige
