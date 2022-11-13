@@ -2,7 +2,7 @@
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
-@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Spectral&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sono&display=swap");
 .fa,
@@ -6115,6 +6115,10 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -6545,7 +6549,7 @@ pre code {
   border: 0 none;
   margin: 0;
   padding: 0;
-  font-family: "Spectral", serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 body {
@@ -6614,6 +6618,11 @@ body {
 .header h1 {
   color: #f5f5f5;
   text-shadow: 0 0 10px #2e4311;
+}
+.header .nav a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1em;
 }
 
 /* Title */
@@ -6696,7 +6705,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 0.6em;
   font-weight: bold;
 }

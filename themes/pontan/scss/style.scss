@@ -6,7 +6,13 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/regular';
 
 // Google Font import
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Spectral&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito+Sans&display=swap');
+
+// Local font import
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
 
 // Other imports
 @import '../../node_modules/normalize.css/normalize';
@@ -21,7 +27,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
     border: 0 none;
     margin: 0;
     padding: 0;
-    font-family: 'Spectral', serif;   
+    font-family: $text-font;   
 }
 
 body {
@@ -31,17 +37,17 @@ body {
 
 ol,
 ul {
-    margin-bottom: calc($font-size * $line-height);
+    margin-bottom: $magic-number;
     padding-left: 1.5em;
 }
 
 p {
     font-size: $font-size;
-    margin-bottom: calc($font-size * $line-height);
+    margin-bottom: $magic-number;
 }
 
 table {
-    margin-bottom: calc($font-size * $line-height);
+    margin-bottom: $magic-number;
 }
 
 .hidden {
@@ -92,6 +98,12 @@ body {
     h1 {
         color: $font-alternative-color;
         text-shadow: 0 0 10px $box-shadow-color;
+    }
+
+    .nav a {
+        text-decoration: none;
+        font-family: $nav-font;
+        letter-spacing: 0.1em;
     }
 }
 
@@ -190,7 +202,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Roboto', sans-serif;
+    font-family: $headers-font;
     margin-bottom: 0.6em;
     font-weight: bold;
 }
