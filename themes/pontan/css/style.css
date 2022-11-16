@@ -3,8 +3,6 @@
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Sono&display=swap");
 .fa,
 .fas,
 .far,
@@ -6518,32 +6516,118 @@ pre code {
     cursor: pointer;
   }
 }
-.old-fashioned {
-  font-size: 1.2em;
-  margin-bottom: 1.54em;
-  line-height: 1.4;
-  color: #333;
-  font-family: "Playfair Display", serif;
-  font-weight: 600;
-  letter-spacing: 0.05em;
+/* Technologies */
+.grid {
+  display: grid;
+  gap: 2em;
+  max-width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100px 200px 200px 200px 200px;
 }
 
-.modern {
-  font-size: 1.2em;
-  margin-bottom: 1.54em;
-  line-height: 1.4;
-  color: #333;
-  font-family: "Sono", sans-serif;
+.grid h1 {
+  grid-column: span 3;
+  justify-self: center;
 }
 
-.worst-ever {
-  font-weight: 900;
-  color: #f00;
-  letter-spacing: 2px;
-  line-height: 0.9;
-  background-color: #ff0;
+.grid-box {
+  position: relative;
+  overflow: hidden;
+}
+.grid-box .header-grid {
+  position: absolute;
+  width: 100%;
+  padding: 0 0.5rem;
+  background-color: rgba(245, 245, 245, 0.7);
+  border-bottom: 5px solid #4f6722;
+}
+.grid-box img {
+  display: block;
+  width: 100%;
+}
+.grid-box a {
+  text-decoration: none;
+  color: #444;
+  width: 100%;
+  height: 200px;
+}
+.grid-box.css {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.grid-box.css img {
+  height: 200px;
+  width: 100%;
+}
+.grid-box.html {
+  grid-column: 2/4;
+  grid-row: 2/3;
+}
+.grid-box.javascript {
+  grid-column: 1/3;
+  grid-row: 3/4;
+}
+.grid-box.git {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+.grid-box.git img {
+  height: 200px;
+  width: 100%;
+}
+.grid-box.python {
+  grid-column: 1/4;
+  grid-row: 4/5;
+}
+.grid-box.php {
+  grid-column: 1/1;
+  grid-row: 5/6;
+}
+.grid-box.php img {
+  height: 200px;
+  width: 100%;
+}
+.grid-box.sqlite {
+  grid-column: 2/4;
+  grid-row: 5/6;
 }
 
+.grid-box:hover {
+  box-shadow: 0 0 5px 2px #2e4311;
+}
+
+/* Technology */
+.grid-2col {
+  display: grid;
+  gap: 2em;
+  max-width: 100%;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 100%;
+}
+.grid-2col h2 {
+  margin: 0.67em 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(8, 100px);
+  }
+  .grid .grid-box,
+  .grid h1 {
+    grid-column: span 1;
+  }
+  .grid > * {
+    grid-row: unset !important;
+  }
+  .grid-2col {
+    grid-template-columns: 100%;
+  }
+  .grid-2col .sidebar {
+    display: none;
+  }
+}
 * {
   box-sizing: border-box;
   border: 0 none;
@@ -6559,17 +6643,17 @@ body {
 
 ol,
 ul {
-  margin-bottom: 1.68em;
+  margin-bottom: 1.82em;
   padding-left: 1.5em;
 }
 
 p {
-  font-size: 1.2em;
-  margin-bottom: 1.68em;
+  font-size: 1.3em;
+  margin-bottom: 1.82em;
 }
 
 table {
-  margin-bottom: 1.68em;
+  margin-bottom: 1.82em;
 }
 
 .hidden {
@@ -6588,7 +6672,7 @@ body {
 }
 
 .main {
-  max-width: 50rem;
+  max-width: 960px;
   padding: 1em;
   margin: auto;
   flex: 1 0 auto;
@@ -6680,7 +6764,7 @@ td,
 th,
 li,
 dd {
-  font-size: 1.2em;
+  font-size: 1.3em;
   text-align: justify;
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -6723,7 +6807,7 @@ img {
     margin: 0;
   }
   p {
-    font-size: 1.32em;
+    font-size: 1.43em;
     text-align: start;
   }
 }

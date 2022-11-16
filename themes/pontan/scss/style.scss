@@ -20,7 +20,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'blockquotes';
 @import 'code';
 @import 'mobile-menu';
-@import 'test';
+@import 'technologies';
 
 * {
     box-sizing: border-box;
@@ -67,7 +67,7 @@ body {
 }
 
 .main {
-    max-width: calc(60rem / 1.2);
+    max-width: $main-width;
     padding: 1em;
     margin: auto;
     flex: 1 0 auto;
@@ -224,4 +224,5 @@ img {
         font-size: calc($font-size * 1.1);
         text-align: start;
     }
+
 }
