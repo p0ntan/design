@@ -90,8 +90,9 @@ body {
 
 .header {
     background-color: $background-alternative-color;
-    box-shadow: 0 0 10px 1px $box-shadow-color;
-    margin-bottom: 1em;
+    box-shadow: 0 0 8px 1px $box-shadow-color;
+    margin: 2em 0 1em;
+    position: relative;
 
     a,
     p,
@@ -110,7 +111,9 @@ body {
 /* Title */
 
 .title {
-    padding: 3em 3em 3em 0;
+    position: relative;
+    left: 200px;
+    padding: 2.5em 0;
 
     * {
         margin: 0;
@@ -123,14 +126,15 @@ body {
 }
 
 .logo {
-    padding: 2rem;
+    position: absolute;
 
     img {
         border-radius: 50%;
-        width: 120px;
+        width: 200px;
+        transform: translate(10px, -20px);
         box-shadow: 
         0 0 2px 2px $box-shadow-color-white,
-        0 0 10px 10px $box-shadow-color;
+        0 0 5px 5px $font-color;
     }
 }
 
@@ -193,10 +197,6 @@ h6 {
 
 /* Images */
 
-img {
-    max-width: 100%;
-}
-
 .garda {
     box-shadow: 3px 3px 10px 2px #395774;
     width: 80%;
@@ -206,14 +206,29 @@ img {
 
 /* Responsive */
 @media (max-width: 767px) {
+    .header {
+        margin-top: 0;
+    }
+
     .title {
-        min-width: 50%;
-        padding: 1em 1em 1em 0;
+        left: unset;
+        padding: auto auto auto 0;
     }
 
     .logo {
-        max-width: 30%;
+        position: relative;
+        min-width: 150px;
+        max-width: 25%;
         padding: 1rem;
+
+        img {
+            border-radius: 50%;
+            width: 100%;
+            transform: unset;
+            box-shadow: 
+            0 0 2px 2px $box-shadow-color-white,
+            0 0 5px 5px $font-color;
+        }
     }
 
     .main {
@@ -226,3 +241,31 @@ img {
     }
 
 }
+
+// .title {
+//     position: relative;
+//     left: 200px;
+//     padding: 2.5em 0;
+
+//     * {
+//         margin: 0;
+//         text-decoration: none;
+//     }
+
+//     p {
+//         font-style: italic;
+//     }
+// }
+
+// .logo {
+//     position: absolute;
+
+//     img {
+//         border-radius: 50%;
+//         width: 200px;
+//         transform: translate(10px, -20px);
+//         box-shadow: 
+//         0 0 2px 2px $box-shadow-color-white,
+//         0 0 5px 5px $font-color;
+//     }
+// }
