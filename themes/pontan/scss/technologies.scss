@@ -31,7 +31,6 @@
     justify-self: center;
     font-size: 4em;
     margin: auto;
-
 }
 
 .grid-box {
@@ -152,6 +151,7 @@
         .grid-box,
         h1 {
             grid-column: span 1;
+            font-size: 2em;
         }
 
         > * {

@@ -6644,6 +6644,7 @@ pre code {
   .grid .grid-box,
   .grid h1 {
     grid-column: span 1;
+    font-size: 2em;
   }
   .grid > * {
     grid-row: unset !important;
