@@ -6529,6 +6529,8 @@ pre code {
 .grid h1 {
   grid-column: span 3;
   justify-self: center;
+  font-size: 4em;
+  margin: auto;
 }
 
 .grid-box {
