@@ -31,7 +31,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 }
 
 body {
-    background-color: $background-color;
+    background: linear-gradient(145deg, rgba($background-second-alternative-color, 0.2), rgba($background-alternative-color, 0.2));
     font-size: 100%;
 }
 
@@ -46,17 +46,20 @@ p {
     margin-bottom: $magic-number;
 }
 
+a {
+    color: $background-second-alternative-color;
+}
+
+a:hover {
+    color: $background-second-alternative-color-light;
+}
+
 table {
     margin-bottom: $magic-number;
 }
 
 .hidden {
     display: none !important;
-}
-
-html,
-body {
-    height: 100%;
 }
 
 /* Placement */
@@ -89,8 +92,8 @@ body {
 }
 
 .header {
-    background-color: $background-alternative-color;
-    box-shadow: 0 0 8px 1px $box-shadow-color;
+    background-color: $background-second-alternative-color;
+    box-shadow: 0 0 8px 1px $font-color;
     margin: 2em 0 1em;
     position: relative;
 
@@ -98,13 +101,16 @@ body {
     p,
     h1 {
         color: $font-alternative-color;
-        text-shadow: 0 0 10px $box-shadow-color;
     }
 
     .nav a {
         text-decoration: none;
         font-family: $nav-font;
         letter-spacing: 0.1em;
+    }
+
+    a:hover {
+        color: $accent-color;
     }
 }
 
@@ -120,6 +126,10 @@ body {
         text-decoration: none;
     }
 
+    a > *:hover {
+        color: $accent-color;
+    }
+
     p {
         font-style: italic;
     }
@@ -131,10 +141,10 @@ body {
     img {
         border-radius: 50%;
         width: 200px;
-        transform: translate(10px, -20px);
-        box-shadow: 
-        0 0 2px 2px $box-shadow-color-white,
-        0 0 5px 5px $font-color;
+        transform: translate(10px, -23px);
+        border: 4px solid $background-color;
+        outline: 2px solid $background-second-alternative-color;
+        box-shadow: 0 0 5px 2px $box-shadow-color-white;
     }
 }
 
@@ -143,12 +153,17 @@ body {
 .footer {
     display: flex;
     justify-content: space-around;
-    border-top: 1px solid #222;
+    background-color: $background-alternative-color;
+    color: $font-alternative-color;
     padding: 0.5rem;
     
     a {
-        color: $font-color;
+        color: $font-alternative-color;
         text-decoration: none;
+    }
+
+    a:hover {
+        color: $accent-color;
     }
 
     div {
@@ -198,7 +213,7 @@ h6 {
 /* Images */
 
 .garda {
-    box-shadow: 3px 3px 10px 2px #395774;
+    box-shadow: 3px 3px 10px 2px $font-color;
     width: 80%;
     display: block;
     margin: 1em auto;
@@ -225,9 +240,7 @@ h6 {
             border-radius: 50%;
             width: 100%;
             transform: unset;
-            box-shadow: 
-            0 0 2px 2px $box-shadow-color-white,
-            0 0 5px 5px $font-color;
+            box-shadow: 0 0 2px 2px $box-shadow-color-white;
         }
     }
 

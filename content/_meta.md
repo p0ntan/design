@@ -11,4 +11,10 @@ Social:
     - title: Länk till min codepen sida.
       url: https://codepen.io/p0ntan
       icon: fab fa-codepen
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---

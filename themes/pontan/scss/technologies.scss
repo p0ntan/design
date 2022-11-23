@@ -43,10 +43,10 @@
         width: 100%;
         padding: 0 0.5rem;
         background-color: rgba($background-color, 0.7);
-        border-bottom: 5px solid $background-alternative-color;
+        border-bottom: 5px solid $tech-border-color;
         z-index: 10;
     }
-
+    
     img {
         position: relative;
         width: 100%;
@@ -57,6 +57,10 @@
         color: $font-color;
         width: 100%;
         height: 200px;
+    }
+
+    a:hover {
+        color: $font-color;
     }
 
     &.css {
@@ -106,7 +110,7 @@
 }
 
 .grid-box:hover {
-    box-shadow: 0 0 4px 1px $box-shadow-color;
+    box-shadow: 0 0 10px 2px rgba($font-color, 0.3);
     scale: 1.05;
     z-index: 11;
     transition: 0.2s;
@@ -151,6 +155,9 @@
         .grid-box,
         h1 {
             grid-column: span 1;
+        }
+
+        h1 {
             font-size: 2em;
         }
 

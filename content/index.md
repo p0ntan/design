@@ -1,6 +1,7 @@
 ---
 Title: Hem
 Description: This is my index/home page.
+Hidden: 1
 ---
 
 Hem
