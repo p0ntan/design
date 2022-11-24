@@ -6438,7 +6438,7 @@ blockquote {
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
-  border: 1px solid #4E6622;
+  border: 1px solid #4e6622;
   border-radius: 0.3em;
   background: #213005;
   font-family: monospace;
@@ -6448,7 +6448,7 @@ code {
 
 pre {
   padding: 0 1em;
-  border: 1px solid #4E6622;
+  border: 1px solid #4e6622;
   border-radius: 0.3em;
   background: #213005;
 }
@@ -6543,7 +6543,7 @@ pre code {
   width: 100%;
   padding: 0 0.5rem;
   background-color: rgba(33, 48, 5, 0.7);
-  border-bottom: 5px solid #799CE8;
+  border-bottom: 5px solid #799ce8;
   z-index: 10;
 }
 .grid-box img {
@@ -6691,7 +6691,7 @@ p {
 }
 
 a {
-  color: #799CE8;
+  color: #799ce8;
 }
 
 a:hover {
@@ -6739,7 +6739,7 @@ body {
 }
 
 .header {
-  background-color: #4E6622;
+  background-color: #4e6622;
   box-shadow: 0 0 8px 1px #f5f5f5;
   margin: 2em 0 1em;
   position: relative;
@@ -6755,7 +6755,7 @@ body {
   letter-spacing: 0.1em;
 }
 .header a:hover {
-  color: #E39F91;
+  color: #e39f91;
 }
 
 /* Title */
@@ -6769,7 +6769,7 @@ body {
   text-decoration: none;
 }
 .title a > *:hover {
-  color: #E39F91;
+  color: #e39f91;
 }
 .title p {
   font-style: italic;
@@ -6791,7 +6791,7 @@ body {
 .footer {
   display: flex;
   justify-content: space-around;
-  background-color: #4E6622;
+  background-color: #4e6622;
   color: #f5f5f5;
   padding: 0.5rem;
   box-shadow: 0 0 8px 1px #f5f5f5;
@@ -6801,7 +6801,7 @@ body {
   text-decoration: none;
 }
 .footer a:hover {
-  color: #E39F91;
+  color: #e39f91;
 }
 .footer div {
   display: flex;
