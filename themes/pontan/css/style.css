@@ -6438,7 +6438,7 @@ blockquote {
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
-  border: 1px solid #4f6722;
+  border: 1px solid #4E6622;
   border-radius: 0.3em;
   background: #f5f5f5;
   font-family: monospace;
@@ -6448,7 +6448,7 @@ code {
 
 pre {
   padding: 0 1em;
-  border: 1px solid #4f6722;
+  border: 1px solid #4E6622;
   border-radius: 0.3em;
   background: #f5f5f5;
 }
@@ -6543,7 +6543,7 @@ pre code {
   width: 100%;
   padding: 0 0.5rem;
   background-color: rgba(245, 245, 245, 0.7);
-  border-bottom: 5px solid #4f6722;
+  border-bottom: 5px solid #4E6622;
   z-index: 10;
 }
 .grid-box img {
@@ -6675,7 +6675,7 @@ pre code {
 }
 
 body {
-  background: linear-gradient(145deg, rgba(46, 81, 158, 0.2), rgba(79, 103, 34, 0.2));
+  background: linear-gradient(145deg, rgba(46, 81, 158, 0.2), rgba(78, 102, 34, 0.2));
   font-size: 100%;
 }
 
@@ -6695,7 +6695,7 @@ a {
 }
 
 a:hover {
-  color: #5b89eb;
+  color: #799CE8;
 }
 
 table {
@@ -6750,7 +6750,7 @@ body {
   letter-spacing: 0.1em;
 }
 .header a:hover {
-  color: #eba294;
+  color: #E39F91;
 }
 
 /* Title */
@@ -6764,7 +6764,7 @@ body {
   text-decoration: none;
 }
 .title a > *:hover {
-  color: #eba294;
+  color: #E39F91;
 }
 .title p {
   font-style: italic;
@@ -6786,7 +6786,7 @@ body {
 .footer {
   display: flex;
   justify-content: space-around;
-  background-color: #4f6722;
+  background-color: #4E6622;
   color: #f5f5f5;
   padding: 0.5rem;
 }
@@ -6795,7 +6795,7 @@ body {
   text-decoration: none;
 }
 .footer a:hover {
-  color: #eba294;
+  color: #E39F91;
 }
 .footer div {
   display: flex;
