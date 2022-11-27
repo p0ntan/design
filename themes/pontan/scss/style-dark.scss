@@ -21,6 +21,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'code';
 @import 'mobile-menu';
 @import 'technologies';
+@import 'analyze';
+@import 'typography';
 
 * {
     box-sizing: border-box;
@@ -33,25 +35,6 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 body {
     background-color: $background-color;
     font-size: 100%;
-}
-
-ol,
-ul {
-    margin-bottom: $magic-number;
-    padding-left: 1.5em;
-}
-
-p {
-    font-size: $font-size;
-    margin-bottom: $magic-number;
-}
-
-a {
-    color: $background-second-alternative-color;
-}
-
-a:hover {
-    color: $background-second-alternative-color-light;
 }
 
 table {
@@ -187,43 +170,17 @@ body {
     }
 }
 
-/* Typografy */
-
-body {
-    line-height: $line-height;
-    color: $font-color;
-}
-
-p,
-td,
-th,
-li,
-dd {
-    font-size: $font-size;
-    text-align: justify;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: $headers-font;
-    margin-bottom: 0.6em;
-    font-weight: bold;
-}
-
 /* Images */
+
+.width100 {
+    max-width: 100%;
+}
 
 .garda {
     box-shadow: 3px 3px 10px 2px rgba($font-color, 0.4);
     width: 80%;
     display: block;
     margin: 1em auto;
-    filter: grayscale(25%);
 }
 
 /* Responsive */

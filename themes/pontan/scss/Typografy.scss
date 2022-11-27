@@ -1,0 +1,46 @@
+/* Typografy */
+
+body {
+    line-height: $line-height;
+    color: $font-color;
+}
+
+p,
+td,
+li,
+th,
+dd {
+    font-size: $font-size;
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+p {
+    margin-bottom: $magic-number;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $headers-font;
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+
+ol,
+ul {
+    margin-bottom: $magic-number;
+    padding-left: 1.5em;
+}
+
+a {
+    color: $background-second-alternative-color;
+}
+
+a:hover {
+    color: $background-second-alternative-color-light;
+}
