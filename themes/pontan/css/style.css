@@ -6431,7 +6431,7 @@ blockquote {
   font-style: italic;
   margin-left: 1em;
   padding-left: 1em;
-  border-left: 0.5em solid #f5f5f5;
+  border-left: 0.5em solid #f6f6f6;
 }
 
 /* Code */
@@ -6440,7 +6440,7 @@ code {
   padding: 0.1em 0.2em;
   border: 1px solid #4e6622;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #f6f6f6;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -6450,7 +6450,7 @@ pre {
   padding: 0 1em;
   border: 1px solid #4e6622;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #f6f6f6;
 }
 
 pre code {
@@ -6542,7 +6542,7 @@ pre code {
   position: absolute;
   width: 100%;
   padding: 0 0.5rem;
-  background-color: rgba(245, 245, 245, 0.7);
+  background-color: rgba(246, 246, 246, 0.7);
   border-bottom: 5px solid #4e6622;
   z-index: 10;
 }
@@ -6692,11 +6692,11 @@ pre code {
   height: 4rem;
   width: 100%;
   font-size: 1.6rem;
-  background-color: rgba(245, 245, 245, 0.6);
+  background-color: rgba(246, 246, 246, 0.6);
   z-index: 5;
 }
 .analyze-grid a:hover div {
-  background-color: rgba(245, 245, 245, 0.8);
+  background-color: rgba(246, 246, 246, 0.8);
 }
 .analyze-grid a img {
   position: relative;
@@ -6715,7 +6715,7 @@ pre code {
   margin-bottom: 1.82em;
   padding: 0.5rem;
   border: 2px solid #444;
-  background-color: rgba(245, 245, 245, 0.5);
+  background-color: rgba(246, 246, 246, 0.6);
   box-shadow: 2px 2px 5px 1px #213005;
 }
 .color-container :nth-child(1) {
@@ -6742,21 +6742,18 @@ pre code {
 }
 .color-container td {
   text-align: center;
-  color: rgba(245, 245, 245, 0.6);
+  color: #f6f6f6;
 }
 .color-container .darker-font {
-  color: rgba(68, 68, 68, 0.6);
-}
-
-.amazon-red {
-  color: #cc0c39;
+  color: #444;
 }
 
 .font-table {
   border-collapse: collapse;
   width: 100%;
-  background-color: rgba(245, 245, 245, 0.5);
+  background-color: rgba(246, 246, 246, 0.6);
   box-shadow: 2px 2px 5px 1px #213005;
+  color: #444;
 }
 .font-table * {
   text-align: center;
@@ -6920,7 +6917,7 @@ body {
 .header a,
 .header p,
 .header h1 {
-  color: #f5f5f5;
+  color: #f6f6f6;
 }
 .header .nav a {
   text-decoration: none;
@@ -6955,9 +6952,9 @@ body {
   border-radius: 50%;
   width: 200px;
   transform: translate(10px, -23px);
-  border: 4px solid #f5f5f5;
+  border: 4px solid #f6f6f6;
   outline: 2px solid #2e519e;
-  box-shadow: 0 0 5px 2px rgba(245, 245, 245, 0.5333333333);
+  box-shadow: 0 0 5px 2px rgba(246, 246, 246, 0.5333333333);
 }
 
 /* Footer */
@@ -6965,11 +6962,11 @@ body {
   display: flex;
   justify-content: space-around;
   background-color: #4e6622;
-  color: #f5f5f5;
+  color: #f6f6f6;
   padding: 0.5rem;
 }
 .footer a {
-  color: #f5f5f5;
+  color: #f6f6f6;
   text-decoration: none;
 }
 .footer a:hover {
@@ -7023,7 +7020,7 @@ body {
     border-radius: 50%;
     width: 100%;
     transform: unset;
-    box-shadow: 0 0 2px 2px rgba(245, 245, 245, 0.5333333333);
+    box-shadow: 0 0 2px 2px rgba(246, 246, 246, 0.5333333333);
   }
   .main {
     margin: 0;

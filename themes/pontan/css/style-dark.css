@@ -6481,7 +6481,7 @@ pre code {
 
 .nav a,
 .nav-toggle {
-  color: #f5f5f5;
+  color: #f6f6f6;
 }
 
 .nav-toggle {
@@ -6552,12 +6552,12 @@ pre code {
 }
 .grid-box a {
   text-decoration: none;
-  color: #f5f5f5;
+  color: #f6f6f6;
   width: 100%;
   height: 200px;
 }
 .grid-box a:hover {
-  color: #f5f5f5;
+  color: #f6f6f6;
 }
 .grid-box.css {
   grid-column: 1/2;
@@ -6607,7 +6607,7 @@ pre code {
 }
 
 .grid-box:hover {
-  box-shadow: 0 0 10px 2px rgba(245, 245, 245, 0.3);
+  box-shadow: 0 0 10px 2px rgba(246, 246, 246, 0.3);
   scale: 1.05;
   z-index: 11;
   transition: 0.2s;
@@ -6692,11 +6692,11 @@ pre code {
   height: 4rem;
   width: 100%;
   font-size: 1.6rem;
-  background-color: rgba(245, 245, 245, 0.6);
+  background-color: rgba(246, 246, 246, 0.6);
   z-index: 5;
 }
 .analyze-grid a:hover div {
-  background-color: rgba(245, 245, 245, 0.8);
+  background-color: rgba(246, 246, 246, 0.8);
 }
 .analyze-grid a img {
   position: relative;
@@ -6714,8 +6714,8 @@ pre code {
   align-items: center;
   margin-bottom: 1.82em;
   padding: 0.5rem;
-  border: 2px solid #f5f5f5;
-  background-color: rgba(245, 245, 245, 0.5);
+  border: 2px solid #f6f6f6;
+  background-color: rgba(246, 246, 246, 0.6);
   box-shadow: 2px 2px 5px 1px #213005;
 }
 .color-container :nth-child(1) {
@@ -6742,25 +6742,22 @@ pre code {
 }
 .color-container td {
   text-align: center;
-  color: rgba(245, 245, 245, 0.6);
+  color: #f6f6f6;
 }
 .color-container .darker-font {
-  color: rgba(68, 68, 68, 0.6);
-}
-
-.amazon-red {
-  color: #cc0c39;
+  color: #444;
 }
 
 .font-table {
   border-collapse: collapse;
   width: 100%;
-  background-color: rgba(245, 245, 245, 0.5);
+  background-color: rgba(246, 246, 246, 0.6);
   box-shadow: 2px 2px 5px 1px #213005;
+  color: #444;
 }
 .font-table * {
   text-align: center;
-  border: 2px solid #f5f5f5;
+  border: 2px solid #f6f6f6;
 }
 .font-table td {
   width: 20%;
@@ -6804,7 +6801,7 @@ pre code {
 /* Typography */
 body {
   line-height: 1.4;
-  color: #f5f5f5;
+  color: #f6f6f6;
 }
 
 p,
@@ -6918,14 +6915,14 @@ body {
 
 .header {
   background-color: #4e6622;
-  box-shadow: 0 0 8px 1px #f5f5f5;
+  box-shadow: 0 0 8px 1px #f6f6f6;
   margin: 2em 0 1em;
   position: relative;
 }
 .header a,
 .header p,
 .header h1 {
-  color: #f5f5f5;
+  color: #f6f6f6;
 }
 .header .nav a {
   text-decoration: none;
@@ -6960,9 +6957,9 @@ body {
   border-radius: 50%;
   width: 200px;
   transform: translate(10px, -23px);
-  border: 4px solid rgba(245, 245, 245, 0.5333333333);
-  outline: 2px solid rgba(245, 245, 245, 0.5333333333);
-  box-shadow: 0 0 5px 2px rgba(245, 245, 245, 0.5333333333);
+  border: 4px solid rgba(246, 246, 246, 0.5333333333);
+  outline: 2px solid rgba(246, 246, 246, 0.5333333333);
+  box-shadow: 0 0 5px 2px rgba(246, 246, 246, 0.5333333333);
 }
 
 /* Footer */
@@ -6970,12 +6967,12 @@ body {
   display: flex;
   justify-content: space-around;
   background-color: #4e6622;
-  color: #f5f5f5;
+  color: #f6f6f6;
   padding: 0.5rem;
-  box-shadow: 0 0 8px 1px #f5f5f5;
+  box-shadow: 0 0 8px 1px #f6f6f6;
 }
 .footer a {
-  color: #f5f5f5;
+  color: #f6f6f6;
   text-decoration: none;
 }
 .footer a:hover {
@@ -6999,7 +6996,7 @@ body {
 }
 
 .garda {
-  box-shadow: 3px 3px 10px 2px rgba(245, 245, 245, 0.4);
+  box-shadow: 3px 3px 10px 2px rgba(246, 246, 246, 0.4);
   width: 80%;
   display: block;
   margin: 1em auto;
@@ -7024,7 +7021,7 @@ body {
     border-radius: 50%;
     width: 100%;
     transform: unset;
-    box-shadow: 0 0 2px 2px rgba(245, 245, 245, 0.5333333333);
+    box-shadow: 0 0 2px 2px rgba(246, 246, 246, 0.5333333333);
   }
   .main {
     margin: 0;

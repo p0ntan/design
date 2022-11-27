@@ -92,7 +92,7 @@ Webbplatsens färgval tillsammans med typsnittet ger hemsidan ett stilrent utsee
     <img src="../image/01_colors/expressen-wheel.png" alt="expressen.se färghjul">
 </div>
 
-Webbplatsen använder sig sparsamt av ett triadiskt färgschema och saknar accentfärg. Däremot används den röda färgen #E30613 på olika element dit en besökares uppmärksamhet kan riktas. Stor del av webbplatsen har en vit bakgrundsfärg.
+Webbplatsen använder sig av ett triadiskt färgschema och saknar accentfärg. Däremot används den röda färgen #E30613 på olika element dit en besökares uppmärksamhet kan riktas. Stor del av webbplatsen har en vit bakgrundsfärg.
 
 <table class="font-table">
 <tr>
@@ -136,7 +136,7 @@ Webbplatsens färgval och typografi ger en lättläst webbplats som håller en b
     <img src="../image/01_colors/amazon-wheel.png" alt="amazon.com färghjul">
 </div>
 
-Webbplatsen använder sig utav ett komplement färgschema med accentfärgerna #FEBD69 och #FFD814. Även den röda färgen <span class="amazon-red">#CC0C39</span> används för olika rabatterbjudanden.
+Webbplatsen använder sig utav ett komplement färgschema med accentfärgerna #FEBD69 och #FFD814. Även den röda färgen #CC0C39 används för olika rabatterbjudanden.
 
 <table class="font-table">
 <tr>
