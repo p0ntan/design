@@ -89,7 +89,7 @@ Description: This page is all about those pictures.
 
 <a href="%base_url%/image/gallery/forest-fog.jpg">
     <picture class="picture">
-    <source media="(max-width: 450px)" srcset="%base_url%/image/gallery/forest-fog.jpg?w=4500&area=45,0,0,0">
+    <source media="(max-width: 450px)" srcset="%base_url%/image/gallery/forest-fog.jpg?w=450&area=45,0,0,0">
     <source media="(max-width: 767px)" srcset="%base_url%/image/gallery/forest-fog.jpg?w=750&area=45,0,0,0">
     <img src="%base_url%/image/gallery/forest-fog.jpg?w=400&area=45,0,0,0" alt="Dimma i skogen" class="gallery">
     </picture>
