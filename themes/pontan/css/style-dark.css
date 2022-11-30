@@ -6607,10 +6607,10 @@ pre code {
 }
 
 .grid-box:hover {
-  box-shadow: 0 0 10px 2px rgba(246, 246, 246, 0.3);
+  box-shadow: 0 0 5px 1px rgba(246, 246, 246, 0.3);
   scale: 1.05;
   z-index: 11;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 /* Technology */
@@ -6869,11 +6869,22 @@ a:hover {
   overflow: hidden;
   height: 0;
   padding-bottom: 65%;
+  border-radius: 5px;
+}
+.grid.gallery-wrapper a:hover {
+  scale: 1.05;
+  box-shadow: 0 0 20px 1px rgba(246, 246, 246, 0.2);
+  transition: 0.4s;
 }
 .grid.gallery-wrapper .gallery {
   max-width: 100%;
 }
 
+@media (max-width: 1008px) {
+  .grid.gallery-wrapper a:hover {
+    scale: unset;
+  }
+}
 @media (max-width: 768px) {
   .grid.gallery-wrapper {
     padding: 1rem;
