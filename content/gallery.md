@@ -7,7 +7,7 @@ Description: This page is all about those pictures.
 
 <h1>Galleri</h1>
 
-<a href="%base_url%/image/gallery/autum-forest.jpg">
+<a href="%base_url%/image/gallery/autum-forest.jpg" target="_blank">
     <picture class="picture">
     <source media="(max-width: 450px)" srcset="%base_url%/image/gallery/autum-forest.jpg?w=450">
     <source media="(max-width: 767px)" srcset="%base_url%/image/gallery/autum-forest.jpg?w=750">
@@ -15,7 +15,7 @@ Description: This page is all about those pictures.
     </picture>
 </a>
 
-<a href="%base_url%/image/gallery/caterpillar.jpg">
+<a href="%base_url%/image/gallery/caterpillar.jpg" target="_blank">
     <picture class="picture">
     <source media="(max-width: 450px)" srcset="%base_url%/image/gallery/caterpillar.jpg?w=450">
     <source media="(max-width: 767px)" srcset="%base_url%/image/gallery/caterpillar.jpg?w=750">
@@ -23,7 +23,7 @@ Description: This page is all about those pictures.
     </picture>
 </a>
 
-<a href="%base_url%/image/gallery/leave-close-up.jpg">
+<a href="%base_url%/image/gallery/leave-close-up.jpg" target="_blank">
     <picture class="picture">
     <source media="(max-width: 450px)" srcset="%base_url%/image/gallery/leave-close-up.jpg?w=450">
     <source media="(max-width: 767px)" srcset="%base_url%/image/gallery/leave-close-up.jpg?w=750">
@@ -31,7 +31,7 @@ Description: This page is all about those pictures.
     </picture>
 </a>
 
-<a href="%base_url%/image/gallery/forest-sunset.jpg">
+<a href="%base_url%/image/gallery/forest-sunset.jpg" target="_blank">
     <picture class="picture">
     <source media="(max-width: 450px)" srcset="%base_url%/image/gallery/forest-sunset.jpg?w=450&area=0,10,0,10">
     <source media="(max-width: 767px)" srcset="%base_url%/image/gallery/forest-sunset.jpg?w=750&area=0,10,0,10">
@@ -39,7 +39,7 @@ Description: This page is all about those pictures.
     </picture>
 </a>
 
-<a href="%base_url%/image/gallery/forest-looking-up.jpg">
+<a href="%base_url%/image/gallery/forest-looking-up.jpg" target="_blank">
     <picture class="picture">
     <source media="(max-width: 450px)" srcset="%base_url%/image/gallery/forest-looking-up.jpg?w=450">
     <source media="(max-width: 767px)" srcset="%base_url%/image/gallery/forest-looking-up.jpg?w=750">
@@ -47,7 +47,7 @@ Description: This page is all about those pictures.
     </picture>
 </a>
 
-<a href="%base_url%/image/gallery/forest-river.jpg">
+<a href="%base_url%/image/gallery/forest-river.jpg" target="_blank">
     <picture class="picture">
     <source media="(max-width: 450px)" srcset="%base_url%/image/gallery/forest-river.jpg?w=450">
     <source media="(max-width: 767px)" srcset="%base_url%/image/gallery/forest-river.jpg?w=750">
@@ -55,7 +55,7 @@ Description: This page is all about those pictures.
     </picture>
 </a>
 
-<a href="%base_url%/image/gallery/smooth-hills.jpg">
+<a href="%base_url%/image/gallery/smooth-hills.jpg" target="_blank">
     <picture class="picture">
     <source media="(max-width: 450px)" srcset="%base_url%/image/gallery/smooth-hills.jpg?w=450&area=0,20,0,0">
     <source media="(max-width: 767px)" srcset="%base_url%/image/gallery/smooth-hills.jpg?w=750&area=0,20,0,0">
@@ -63,7 +63,7 @@ Description: This page is all about those pictures.
     </picture>
 </a>
 
-<a href="%base_url%/image/gallery/beach-sunset.jpg">
+<a href="%base_url%/image/gallery/beach-sunset.jpg" target="_blank">
     <picture class="picture">
     <source media="(max-width: 450px)" srcset="%base_url%/image/gallery/beach-sunset.jpg?w=450&area=45,0,0,0">
     <source media="(max-width: 767px)" srcset="%base_url%/image/gallery/beach-sunset.jpg?w=750&area=45,0,0,0">
@@ -71,7 +71,7 @@ Description: This page is all about those pictures.
     </picture>
 </a>
 
-<a href="%base_url%/image/gallery/northern-lights-green.jpg">
+<a href="%base_url%/image/gallery/northern-lights-green.jpg" target="_blank">
     <picture class="picture">
     <source media="(max-width: 450px)" srcset="%base_url%/image/gallery/northern-lights-green.jpg?w=450">
     <source media="(max-width: 767px)" srcset="%base_url%/image/gallery/northern-lights-green.jpg?w=750">
@@ -79,7 +79,7 @@ Description: This page is all about those pictures.
     </picture>
 </a>
 
-<a href="%base_url%/image/gallery/beach-evening.jpg">
+<a href="%base_url%/image/gallery/beach-evening.jpg" target="_blank">
     <picture class="picture">
     <source media="(max-width: 450px)" srcset="%base_url%/image/gallery/beach-evening.jpg?w=450">
     <source media="(max-width: 767px)" srcset="%base_url%/image/gallery/beach-evening.jpg?w=750">
@@ -87,7 +87,7 @@ Description: This page is all about those pictures.
     </picture>
 </a>
 
-<a href="%base_url%/image/gallery/forest-fog.jpg">
+<a href="%base_url%/image/gallery/forest-fog.jpg" target="_blank">
     <picture class="picture">
     <source media="(max-width: 450px)" srcset="%base_url%/image/gallery/forest-fog.jpg?w=450&area=45,0,0,0">
     <source media="(max-width: 767px)" srcset="%base_url%/image/gallery/forest-fog.jpg?w=750&area=45,0,0,0">
@@ -95,7 +95,7 @@ Description: This page is all about those pictures.
     </picture>
 </a>
 
-<a href="%base_url%/image/gallery/nothern-lights-mountain.jpg">
+<a href="%base_url%/image/gallery/nothern-lights-mountain.jpg" target="_blank">
     <picture class="picture">
     <source media="(max-width: 450px)" srcset="%base_url%/image/gallery/nothern-lights-mountain.jpg?w=450">
     <source media="(max-width: 767px)" srcset="%base_url%/image/gallery/nothern-lights-mountain.jpg?w=750">
