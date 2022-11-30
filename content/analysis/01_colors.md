@@ -38,7 +38,7 @@ Resultat
 ### 1. skysport.se <small>(besökt 26/11-2022)</small>
 
 <div class="color-container">
-    <img src="../image/01_colors/skysport.png" alt="Startsida till skysport.se">
+    <img src="%base_url%/image/01_colors/skysport.png" alt="Startsida till skysport.se">
     <table style="border-spacing: 4px; border-collapse: separate">
     <tr>
     <td style="height: 50px; width: 50px; background-color: #0072BC">#0072BC
@@ -47,7 +47,7 @@ Resultat
     <td style="height: 50px; width: 50px; background-color: #234176">#234176
     </tr>
     </table>
-    <img src="../image/01_colors/skysport-wheel.png" alt="skysport.se färghjul">
+    <img src="%base_url%/image/01_colors/skysport-wheel.png" alt="skysport.se färghjul">
 </div>
 
 Webbplatsen använder sig utav ett monokromatiskt färgschema då alla färger är i någon nyans av blå. Sidan använder sig inte utav någon accentfärg. Stor del av webbplatsen har en vit bakgrundsfärg.
@@ -81,7 +81,7 @@ Webbplatsens färgval tillsammans med typsnittet ger hemsidan ett stilrent utsee
 ### 2. expressen.se <small>(besökt 26/11-2022)</small>
 
 <div class="color-container">
-    <img src="../image/01_colors/expressen.png" alt="Startsida till expressen.se">
+    <img src="%base_url%/image/01_colors/expressen.png" alt="Startsida till expressen.se">
     <table style="border-spacing: 4px; border-collapse: separate">
     <tr>
     <td style="height: 50px; width: 50px; background-color: #e30613">#E30613
@@ -89,7 +89,7 @@ Webbplatsens färgval tillsammans med typsnittet ger hemsidan ett stilrent utsee
     <td style="height: 50px; width: 50px; background-color: #0976b5">#0976b5
     </tr>
     </table>
-    <img src="../image/01_colors/expressen-wheel.png" alt="expressen.se färghjul">
+    <img src="%base_url%/image/01_colors/expressen-wheel.png" alt="expressen.se färghjul">
 </div>
 
 Webbplatsen använder sig av ett triadiskt färgschema och saknar accentfärg. Däremot används den röda färgen #E30613 på olika element dit en besökares uppmärksamhet kan riktas. Stor del av webbplatsen har en vit bakgrundsfärg.
@@ -123,7 +123,7 @@ Webbplatsens färgval och typografi ger en lättläst webbplats som håller en b
 ### 3. amazon.com <small>(besökt 26/11-2022)</small>
 
 <div class="color-container">
-    <img src="../image/01_colors/amazon.png" alt="Startsida till amazon.com">
+    <img src="%base_url%/image/01_colors/amazon.png" alt="Startsida till amazon.com">
     <table style="border-spacing: 4px; border-collapse: separate">
     <tr>
     <td style="height: 50px; width: 40px; background-color: #131A22">#131A22</td>
@@ -133,7 +133,7 @@ Webbplatsens färgval och typografi ger en lättläst webbplats som håller en b
     <td style="height: 50px; width: 40px; background-color: #febd69" class="darker-font">#FEBD69</td>
     </tr>
     </table>
-    <img src="../image/01_colors/amazon-wheel.png" alt="amazon.com färghjul">
+    <img src="%base_url%/image/01_colors/amazon-wheel.png" alt="amazon.com färghjul">
 </div>
 
 Webbplatsen använder sig utav ett komplement färgschema med accentfärgerna #FEBD69 och #FFD814. Även den röda färgen #CC0C39 används för olika rabatterbjudanden.

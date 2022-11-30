@@ -150,7 +150,7 @@
     .grid {
 
         grid-template-columns: 100%;
-        grid-template-rows: 100px, repeat(8, 200px);
+        grid-template-rows: 100px repeat(7, 200px);
 
         .grid-box,
         h1 {

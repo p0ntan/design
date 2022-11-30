@@ -1,0 +1,26 @@
+/* Gallery css */
+
+.grid.gallery-wrapper {
+
+    grid-template-rows: 100px repeat(7, auto);
+
+    a {
+        overflow: hidden;
+        height: 0;
+        padding-bottom: 65%;
+    }
+    
+    .gallery {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid.gallery-wrapper {
+        padding: 1rem;
+        grid-template-columns: 100%;
+        grid-template-rows: 100px repeat(12, auto);
+
+        gap: 4rem;
+    }
+}
