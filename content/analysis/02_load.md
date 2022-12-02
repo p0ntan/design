@@ -54,7 +54,7 @@ När en AdBlocker aktiverades märktes ingen direkt skillnad förutom en liten �
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRH0U5F9i3SpnYjen8WS2AMqkIpOjU7iKyUzTO0ygA5Fm4ONJBLjyEBkh5XenhlEhI01Kao4RYhks-7/pubhtml?gid=157068620&amp;single=true&amp;widget=true&amp;headers=false" class="embed-data"></iframe>
 
-Omni:s nyhetssite laddar DOM-content relativt fort, oftast under en sekund, men däremot är sidan laddningstid långsammare och där den upplevda laddningstiden (slutförd i tabellerna) är än långsammare. Sidan laddar 132-157 resurser och överför mellan 1,95-3,37 MB data. Då många resurser laddas, därav många bilder, skulle webbplatsen kunna jobba mer med komprimering av bilder för att spara data som behöver överföras till en besökare.
+Omni:s nyhetssite laddar DOM-content relativt fort, oftast under en sekund, men däremot är sidans laddningstid långsammare och där den upplevda laddningstiden (slutförd i tabellerna) är än långsammare. Sidan laddar 132-157 resurser och överför mellan 1,95-3,37 MB data. Då många resurser laddas, därav många bilder, skulle webbplatsen kunna jobba mer med komprimering av bilder för att spara data som behöver överföras till en besökare.
 
 Värt att notera är att med en AdBlocker aktiverad förbättras alla mätvärden förutom laddningstiden för DOM-content, även om det handlar om väldigt kort tid.
 
@@ -73,17 +73,17 @@ Likt Omni med en AdBlocker aktiverad förbättras alla mätvärden förutom tide
 Analys
 -----------------------
 
-Diskutera och analysera de resultaten du fann.
+Analys KOMMER!
 
 Referenser
 -----------------------
 
-[1] https://topp100.idg.se/2.39772/1.742857/topp-100-2020-nyheter (besökt 2022-12-01)
-[2] https://computersweden.idg.se/2.2683/1.738698/sverige-mest-trafik-google (Besökt 2022-12-01)
-[3] https://pagespeed.web.dev/
-[4] https://adblockplus.org/
+1. https://topp100.idg.se/2.39772/1.742857/topp-100-2020-nyheter (besökt 2022-12-01)
+2. https://computersweden.idg.se/2.2683/1.738698/sverige-mest-trafik-google (Besökt 2022-12-01)
+3. https://pagespeed.web.dev/
+4. https://adblockplus.org/
 
 Övrigt
 -----------------------
 
-Skriv ditt eget namn samt vilka gruppmedlemmar som deltog i att författa rapporten.
+Rapporten är gjord helt självständigt av mig, Pontus Åkerberg.
