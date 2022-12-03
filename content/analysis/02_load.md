@@ -28,6 +28,8 @@ Metod
 
 För att samla in data om de olika webbplatserna användes PageSpeed Insights [3] som mäter, analyser och rapporterar webbplatsens prestanda både på desktop och mobil. I webbläsaren Firefox DeveloperEdition används även det inbyggda DevTools, och mer specifikt fliken "Nätverk/network" för att kunna få fram data om laddningstider, överförd storlek och antal laddade resurser. Varje webbplats laddas tre olika sidor in tre gånger, och sedan räknas medelvärdet ut från de tre omladdningarna och mätningarna. För respektive webbplats har även varje startsida mäts ytterligare 3 gånger, denna gång med en AdBlocker [4] aktiverad för att se skillnaden när man exkluderar externt innehåll i form av reklam.
 
+Vid besök och mätning av respektive webbplats har det inte "scrollats" ned på sidorna för att se innehåll längre ned.
+
 Resultat
 -----------------------
 
@@ -68,12 +70,23 @@ Värt att notera är att med en AdBlocker aktiverad förbättras alla mätvärde
 
 Expressen:s webbplats laddar sidans DOM-content likt Omni runt en sekund, men där den upplevda laddningstiden är desto långsammare då sidan innehåller mycket externt innehåll. Antal resurser som laddas är mellan 232-245 stk och mängden data som överförs ligger mellan 2,5-3,5 MB. Sett enbart till prestanda skulle en förbättring var att begränsa mängden externt innehåll, men är kanske inte möjligt då detta är en inkomstkälla till webbplatsen.
 
-Likt Omni med en AdBlocker aktiverad förbättras alla mätvärden förutom tiden för DOM-contentet. Värt att notera här är att utan externt innehåll laddas det endast in 36 resurser, en minskning på 200 (!) vilket är en mycket stor skillnad. 
+Likt Omni med en AdBlocker aktiverad förbättras alla mätvärden förutom tiden för DOM-contentet. Värt att notera här är att utan externt innehåll laddas det endast in 36 resurser, en minskning på 200 (!) stycken vilket är en mycket stor skillnad. Även mängden överförd data halverades från 2,49 MB till 1,22 MB. 
 
 Analys
 -----------------------
 
-Analys KOMMER!
+Alla webbplatserna använder sig av mycket bilder för att illustrera de olika artiklar som finns. Dock är de flesta bilderna i mindre format, och man kan därmed använda mycket komprimering av bilderna för att dra ner på mängden data som behöver överföras och ändå behålla en ok bildkvalité. Man verkar vara medveten om detta då mängden data som behöver överföras är relativt liten, med tanke på hur mycket bilder det trots allt är. Viss förbättring kan göras, framförallt för Omni, men det skulle troligen inte förändra laddningstiderna speciellt mycket.
+
+Däremot så är två av de valda webbplatserna för rapporten olika beroende av reklam som intäktskälla. Här blir det istället tydligt att om man kan minimera mängden externt innehåll, och därmed också antalet resurser som laddas och data som överförs, kan man dra ner på laddningstiden betydligt mer. Frågan är dock om detta ens är möjligt, med tanke på att det som nämnt är en intäktskälla för Omni och Expressen.
+
+Om man rangordnar de olika webbplatserna baserat på de olika mätvärdena skulle den bli följande:
+1. SVT
+2. Omni
+3. Expressen
+
+Även om det inte är allt för stor skillnad i mätvärdena på Omni och Expressen så är det den upplevda laddningstiden som jag anser avgör rangordningen (slutförd i tabellerna). Expressen webbplats kan ladda in reklam långt efter man gått in på själva sidan, där det högsta snittvärdet mättes till 17,42 sekunder vilket upplevs långsamt i sammanhanget. Rangordningen stämmer även överens med vilken webbplats som fick störst förändring med en AdBlocker aktiverad, d v s laddar in mest externt innehåll. SVT som inte är beroende av reklam kan utesluta externt innehåll, vilket gör de till den bästa utav de tre webbplatserna i förhållande till laddningstid. Värt att notera är att om man istället hade gjort alla tester med en AdBlocker aktiverad skulle resultatet kunna bli annorlunda.
+
+Baserat delvis på mätvärdena i rapporten skulle jag sätta en personlig "absolut laddningstid" på 5 sekunder för denna typer av webbplats. Om en webbplats laddar sitt innehåller på under 5 sekunder upplever jag den som snabb, och går det över 10 sekunder skulle jag klassa det för långsamt. För andra typer av webbplatser med annat innehåll skulle troligen tiderna ändras då förväntningarna är olika beroende på webbplatsens innehåll. I detta testet skulle jag säga att SVT upplevs som snabb, Omni varken långsam eller snabb och Expressen som långsam.
 
 Referenser
 -----------------------
