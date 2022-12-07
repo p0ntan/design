@@ -15,18 +15,18 @@ Urval
 Urvalet gjordes baserat på mitt eget intresse för skärmflygning/paragliding, där det vore intressant att se hur olika piloter använder sig utav olika designprinciper på sina egna webbplatser. Personerna bakom varje webbplats kan alla klassas som äventyrare, där alla är topputövare på världsnivå.
 
 1. https://chrigelmaurer.ch/ 
-<br>Chrigel Maurer är flerfaldig vinnare av Redbull X-Alps[1], en av världens tuffaste äventyrstävlingar. Han klassas av många som världens bästa paraglidingpilot.
+<br>Chrigel Maurer är flerfaldig vinnare av Redbull X-Alps [1], en av världens tuffaste äventyrstävlingar. Han klassas av många som världens bästa paraglidingpilot.
 
 2. https://www.antoinegirard.fr/
-<br>Antoine Girard besitter höjdrekordet för skärmflyg[2], där han i 2021 flög på hela 8407 meter över havet. Han är en av få, om inte den enda, som genomför dessa rekordförsök utan syrgas.
+<br>Antoine Girard besitter höjdrekordet för skärmflyg [2], där han i 2021 flög på hela 8407 meter över havet. Han är en av få, om inte den enda, som genomför dessa rekordförsök utan syrgas.
 
 3. https://paltakats.com/
-<br>Pal Takats är en världspilot inom flera kategorier, där han bland annat tidigare varit flerfaldig världscupvinnare i ACRO-flygning. Pals meritlista är lång och han har slagit flertalet rekord och varit med och utvecklat ACRO-sporten till va den är idag [3].
+<br>Pal Takats är en världspilot inom flera kategorier, där han bland annat tidigare varit flerfaldig världscupvinnare i ACRO-flygning. Pals meritlista är lång och han har slagit flertalet rekord och varit med och utvecklat ACRO-sporten till vad den är idag [3].
 
 Metod
 -----------------------
 
-Vid genomgång av de olika webbplatserna användes https://www.canva.com/learn/design-elements-principles/ som ett verktyg för att definiera olika designprinciper och designelement att leta efter. Exempel på olika principer från listan är bland annat balans, djup, textur och rörelse.
+Vid genomgång av de olika webbplatserna användes https://www.canva.com/learn/design-elements-principles/ som ett verktyg för att definiera olika designprinciper och designelement att leta efter. Exempel på olika principer från listan är bland annat balans, djup, och rörelse.
 
 Resultat
 -----------------------
@@ -56,24 +56,25 @@ Analys
 
 Då alla tre webbplatserna har en del bilder tagna ifrån luften får alla en känsla av rörelse och djup, oavsett om detta är medvetet eller ej, då dessa typer av bilder ofta blir väldigt maffiga med mycket djup. Medvetet eller ej, så gör det att hemsidorna känns mer levande med det djupet som ges. Om man skulle byta ut alla bilder till något annat som inte gett samma djup så skulle nog känslan förändras för alla tre de webbplatserna.
 
-En intressant sak var att även om Pal och Antoine båda hade bilder som byttes ut ungefär lika ofta, upplevdes ändå att webbplatsen till Antoine uppleves som något mer i rörelse. Detta är troligen på grund av den linjen högst upp på sidan som är mer eller mindre i konstant rörelse.
+En intressant sak var att även om Pal och Antoine båda hade bilder som byttes ut ungefär lika ofta, upplevdes ändå att webbplatsen till Antoine uppleves som något mer i rörelse. Detta är troligen på grund av storleken på bilderna samt den linjen högst upp på sidan som är mer eller mindre i konstant rörelse.
 
 Den slutsats jag gör av denna lilla studie, är att en webbplats som använder sig mer utav olika designprinciper och som framförallt verkar göra mer medvetna val angående dem också ser bättre ut. Denna slutsats når man rimligtvis även utan denna studie, men när man nu jämfört olika webbplatser som verkar ha jobbat olika mycket med det blir det desto tydligare.
 
 
 
 
+Min egen webbplats mörka grundtema som används har mörkgrön bakgrundsfärg med en header och footer som skiljer sig med en ljusare grön färg och en avgränsande ljus linje. Header har en rund logo i form av en rund bild som är något större än headern i sig, men som sedan blir mindre när skärmupplösningen minskar. En orange/rosa färg återkommer på flera sidor bland annat på bilder och när man "hovrar" över länkar i headern och footern.
 
-Analysera din sida utifrån punkt 4.2 - 4.5
+Känslan som webbplatsen ger är lugn och harmonisk tack vare sitt gröna färgval som representerar liv och harmoni [3]. Användandet av bilder som består av den orange/rosa färgen förstärker den känslan samtidigt som de får bilderna att stå ut. På desktop upplever jag att det även skapas ett visst djup på webbplatsen.
 
-2. Kommentera webbplatsens design och vad som kännetecknar den rent allmänt.
-3. Kommentera om du själv anser att designen gynnar webbplatsens mål och syfte, och/eller vilken känsla som designen ger.
-4. Lyft fram den eller de designprinciper du anser kännetecknar webbplatsens design och exemplifiera. Notera gärna vilka designelement som använts.
-5. Kika om designprinciperna som används är lika/olika för framsidan och undersidorna och kommentera.
+Den designprincip som ger sidan sitt utseende och design är dess symmetri eller balans där delar ej är symmetriska. Ett exempel på symmetrin är hur text på sidan har samma bredd överallt, och hur bilder är placerade symmetriskt i till exempel galleriet. I headern där det inte är symmetriskt balanseras istället bilden upp med länkar på motsatt sida. Det är även headern (och delvis footern) som skapar ett djup på sidan där storleken eller proportionen på bilden samt de skuggade linjer som omger den gör att den står ut något från resten av sidan. De nämnda principerna återkommer på alla sidor.
+
+Färgschemat var från början triadiskt och anpassat efter den ljusa stilen på webbplatsen. Samma färgschema används på den mörka sidan där det blev mycket bättre och därför bytte jag grundtema till mörkt istället. Men man kan jobba bättre med hur färgerna används för att få de att passa ihop bättre, speciellt på den ljusa varianten av webbplatsen. Annars skulle jag säga att jag är ganska nöjd med hur webbplatsen ser ut då, men man kan jobba mer med placeringen av element som t ex på de enskilda teknologisidorna där listan över alla teknologier fångar uppmärksamheten före själva innehållet på respektive sida. Vissa av bilderna i galleriet kan bytas ut eller placeras om för att få galleriet att kännas mer symmetriskt. 
+
+Jag planerar att genomföra alla dessa förändringar.
 
 Finns det uppdateringar du kan göra på din sida sett utifrån vad du märkt av under din analys?
 Notera uppdateringarna du gör, eller väljer att inte göra.
-I slutet av rapporten skriver du ett eget stycke med namnen på dina gruppmedlemmar.
 
 Referenser
 -----------------------
@@ -81,6 +82,7 @@ Referenser
 1. https://en.wikipedia.org/wiki/Red_Bull_X-Alps#Winners (besökt 2022-12-07)
 2. https://xcmag.com/magazine-articles/antoine-girards-world-record-flight-above-broad-peak/ (besökt 2022-12-07)
 3. https://paltakats.com/about-me (besökt 2022-12-07)
+4. https://www.arkitektkopia.se/akademi/vad-betyder-fargerna/ (besökt 2022-12-07)
 
 Övrigt
 -----------------------
