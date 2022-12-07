@@ -1,5 +1,5 @@
 ---
-Title: Load
+Title: Laddningstid
 Description: Analysis of websites loadingtimes.
 Template: index
 ---

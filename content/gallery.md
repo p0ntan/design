@@ -1,5 +1,5 @@
 ---
-Title: Gallery
+Title: Galleri
 Description: This page is all about those pictures.
 ---
 
@@ -105,5 +105,5 @@ Description: This page is all about those pictures.
 
 </div>
 <div class="youtube-embed">
-<iframe src="https://www.youtube.com/embed/Oos4ojutOMM" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/Oos4ojutOMM" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 </div>

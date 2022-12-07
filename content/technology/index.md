@@ -1,5 +1,5 @@
 ---
-Title: Technologies
+Title: Teknologier
 Description: This is my technologies landingpage.
 Template: technologies
 ---

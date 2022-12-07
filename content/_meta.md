@@ -1,5 +1,5 @@
 ---
-Logo: image/me_airtime.jpg
+Logo: image/me_airtime.jpg?w=200&q=100
 Tagline: Min portfolio.
 Social:
     - title: Länk till sidans github repo.

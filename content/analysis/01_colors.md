@@ -1,5 +1,5 @@
 ---
-Title: Colors
+Title: Färg
 Description: Analysis of colors on different websites.
 Template: index
 ---

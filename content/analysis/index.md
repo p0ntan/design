@@ -1,5 +1,5 @@
 ---
-Title: Analysis
+Title: Analys
 Description: This is my analysis landingpage.
 Template: index
 ---
