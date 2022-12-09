@@ -55,11 +55,11 @@ Description: This page is all about those pictures.
     </picture>
 </a>
 
-<a href="%base_url%/image/gallery/smooth-hills.jpg" target="_blank">
+<a href="%base_url%/image/gallery/forest-fog.jpg" target="_blank">
     <picture class="picture">
-    <source media="(max-width: 450px)" srcset="%base_url%/image/gallery/smooth-hills.jpg?w=450&area=0,20,0,0">
-    <source media="(max-width: 767px)" srcset="%base_url%/image/gallery/smooth-hills.jpg?w=750&area=0,20,0,0">
-    <img src="%base_url%/image/gallery/smooth-hills.jpg?w=400&area=0,20,0,0" alt="Gräsbeklädda kullar" class="gallery">
+    <source media="(max-width: 450px)" srcset="%base_url%/image/gallery/forest-fog.jpg?w=450&area=45,0,0,0">
+    <source media="(max-width: 767px)" srcset="%base_url%/image/gallery/forest-fog.jpg?w=750&area=45,0,0,0">
+    <img src="%base_url%/image/gallery/forest-fog.jpg?w=400&area=45,0,0,0" alt="Dimma i skogen" class="gallery">
     </picture>
 </a>
 
@@ -87,11 +87,11 @@ Description: This page is all about those pictures.
     </picture>
 </a>
 
-<a href="%base_url%/image/gallery/forest-fog.jpg" target="_blank">
+<a href="%base_url%/image/gallery/smooth-hills.jpg" target="_blank">
     <picture class="picture">
-    <source media="(max-width: 450px)" srcset="%base_url%/image/gallery/forest-fog.jpg?w=450&area=45,0,0,0">
-    <source media="(max-width: 767px)" srcset="%base_url%/image/gallery/forest-fog.jpg?w=750&area=45,0,0,0">
-    <img src="%base_url%/image/gallery/forest-fog.jpg?w=400&area=45,0,0,0" alt="Dimma i skogen" class="gallery">
+    <source media="(max-width: 450px)" srcset="%base_url%/image/gallery/smooth-hills.jpg?w=450&area=0,20,0,0">
+    <source media="(max-width: 767px)" srcset="%base_url%/image/gallery/smooth-hills.jpg?w=750&area=0,20,0,0">
+    <img src="%base_url%/image/gallery/smooth-hills.jpg?w=400&area=0,20,0,0" alt="Gräsbeklädda kullar" class="gallery">
     </picture>
 </a>
 
