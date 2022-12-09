@@ -3,21 +3,41 @@
 /* Landing page */
 
 .analyze-grid {
+    @include zoom-picture;
+    
     display: flex;
     height: auto;
-    gap: 1rem;
+    gap: 2em;
     margin-bottom: 2rem;
+
+    a:nth-child(odd) {
+        max-width: calc(100% / 4);
+        padding-bottom: 35%;
+        align-self: center;
+    }
+
+    a:nth-child(even) {
+        max-width: calc(100% / 2);
+        padding-bottom: 60%; 
+    }
 
     a,
     a:hover {
         position: relative;
-        flex: calc(100% / 3);
-        max-width: calc(100% / 3);
-        height: fit-content;
+        // max-width: calc(100% / 3);
+        height: 0;
+        // padding-bottom: 44%;
         text-decoration: none;
         color: $background-alternative-color-darker;
+        overflow: hidden;
+        border-radius: 5px;
     }
-    
+
+    a:hover {
+        box-shadow: 0 0 20px 1px rgba($font-color, 0.2);
+        scale: 1.05;
+        transition: 0.4s;
+    }
 
     a div {
         position: absolute;
@@ -43,6 +63,7 @@
         top: 0;
         left: 0;
     }
+
 }
 
 /* 01_colors */
@@ -162,9 +183,10 @@
         a,
         a:hover {
             position: relative;
-            max-width: 80%;
+            max-width: 80% !important;
+            padding-bottom: 110% !important;
             margin: 1rem;
-            height: fit-content;
+            // height: fit-content;
             text-decoration: none;
             color: $background-alternative-color-darker;
         }

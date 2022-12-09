@@ -7,11 +7,11 @@ Description: This page is all about those pictures.
 
 <h1>Galleri</h1>
 
-<a href="%base_url%/image/gallery/autum-forest.jpg" target="_blank">
+<a href="%base_url%/image/gallery/cozy-forest.jpg" target="_blank">
     <picture class="picture">
-    <source media="(max-width: 450px)" srcset="%base_url%/image/gallery/autum-forest.jpg?w=450">
-    <source media="(max-width: 767px)" srcset="%base_url%/image/gallery/autum-forest.jpg?w=750">
-    <img src="%base_url%/image/gallery/autum-forest.jpg?w=400" alt="Höst i skogen" class="gallery">
+    <source media="(max-width: 450px)" srcset="%base_url%/image/gallery/cozy-forest.jpg?w=450">
+    <source media="(max-width: 767px)" srcset="%base_url%/image/gallery/cozy-forest.jpg?w=750">
+    <img src="%base_url%/image/gallery/cozy-forest.jpg?w=400" alt="Höst i skogen" class="gallery">
     </picture>
 </a>
 
@@ -39,19 +39,19 @@ Description: This page is all about those pictures.
     </picture>
 </a>
 
+<a href="%base_url%/image/gallery/beach-sunset.jpg" target="_blank">
+    <picture class="picture">
+    <source media="(max-width: 450px)" srcset="%base_url%/image/gallery/beach-sunset.jpg?w=450&area=45,0,0,0">
+    <source media="(max-width: 767px)" srcset="%base_url%/image/gallery/beach-sunset.jpg?w=750&area=45,0,0,0">
+    <img src="%base_url%/image/gallery/beach-sunset.jpg?w=400&area=45,0,0,0" alt="Solnedgång strand" class="gallery">
+    </picture>
+</a>
+
 <a href="%base_url%/image/gallery/forest-looking-up.jpg" target="_blank">
     <picture class="picture">
     <source media="(max-width: 450px)" srcset="%base_url%/image/gallery/forest-looking-up.jpg?w=450">
     <source media="(max-width: 767px)" srcset="%base_url%/image/gallery/forest-looking-up.jpg?w=750">
     <img src="%base_url%/image/gallery/forest-looking-up.jpg?w=400" alt="Träd från marken" class="gallery">
-    </picture>
-</a>
-
-<a href="%base_url%/image/gallery/forest-river.jpg" target="_blank">
-    <picture class="picture">
-    <source media="(max-width: 450px)" srcset="%base_url%/image/gallery/forest-river.jpg?w=450">
-    <source media="(max-width: 767px)" srcset="%base_url%/image/gallery/forest-river.jpg?w=750">
-    <img src="%base_url%/image/gallery/forest-river.jpg?w=400" alt="Flod i skog" class="gallery">
     </picture>
 </a>
 
@@ -63,11 +63,19 @@ Description: This page is all about those pictures.
     </picture>
 </a>
 
-<a href="%base_url%/image/gallery/beach-sunset.jpg" target="_blank">
+<a href="%base_url%/image/gallery/beach-evening.jpg" target="_blank">
     <picture class="picture">
-    <source media="(max-width: 450px)" srcset="%base_url%/image/gallery/beach-sunset.jpg?w=450&area=45,0,0,0">
-    <source media="(max-width: 767px)" srcset="%base_url%/image/gallery/beach-sunset.jpg?w=750&area=45,0,0,0">
-    <img src="%base_url%/image/gallery/beach-sunset.jpg?w=400&area=45,0,0,0" alt="Solnedgång strand" class="gallery">
+    <source media="(max-width: 450px)" srcset="%base_url%/image/gallery/beach-evening.jpg?w=450">
+    <source media="(max-width: 767px)" srcset="%base_url%/image/gallery/beach-evening.jpg?w=750">
+    <img src="%base_url%/image/gallery/beach-evening.jpg?w=400" alt="Kväll på stranden" class="gallery">
+    </picture>
+</a>
+
+<a href="%base_url%/image/gallery/forest-river.jpg" target="_blank">
+    <picture class="picture">
+    <source media="(max-width: 450px)" srcset="%base_url%/image/gallery/forest-river.jpg?w=450">
+    <source media="(max-width: 767px)" srcset="%base_url%/image/gallery/forest-river.jpg?w=750">
+    <img src="%base_url%/image/gallery/forest-river.jpg?w=400" alt="Flod i skog" class="gallery">
     </picture>
 </a>
 
@@ -76,14 +84,6 @@ Description: This page is all about those pictures.
     <source media="(max-width: 450px)" srcset="%base_url%/image/gallery/northern-lights-green.jpg?w=450">
     <source media="(max-width: 767px)" srcset="%base_url%/image/gallery/northern-lights-green.jpg?w=750">
     <img src="%base_url%/image/gallery/northern-lights-green.jpg?w=400" alt="Grönt norrsken" class="gallery">
-    </picture>
-</a>
-
-<a href="%base_url%/image/gallery/beach-evening.jpg" target="_blank">
-    <picture class="picture">
-    <source media="(max-width: 450px)" srcset="%base_url%/image/gallery/beach-evening.jpg?w=450">
-    <source media="(max-width: 767px)" srcset="%base_url%/image/gallery/beach-evening.jpg?w=750">
-    <img src="%base_url%/image/gallery/beach-evening.jpg?w=400" alt="Kväll på stranden" class="gallery">
     </picture>
 </a>
 

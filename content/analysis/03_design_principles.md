@@ -33,17 +33,30 @@ Resultat
 
 1. Chrigel Maurer
 
+<picture class="picture">
+    <img src="%base_url%/image/03_design/chrigelmaurer.webp?w=1200" alt="Chrigel Maurer startsida">
+</picture>
+
 Webbplatsens huvudsakliga syfte är att visa upp Chrigels meriter och tjänster som han tillsammans med sitt team erbjuder, och vill troligen även locka nya sponsorer och/eller kunder. Webbplatsen har en enkel relativt ren design med få färger på olika HTML-element, där bilder/videor står för mycket av det visuella innehållet samtidigt som man använder sig utav mycket tomt utrymme vid sidan av dessa. Här anser jag att den valda enkla designen låter innehållet tala mer för sig själv, och lyfter på så sätt fram bilder och videos. Då det finns mycket va detta på Chrigel, ger det en känsla av en mycket aktiv och driven person som jag vill tro syftet är, samtidigt som hemsidan i sig upplevs mer lugn och fridfull.
 
 De designprincip som kännetecknar webbplatsen är hur skaparen har jobbat med djup, rörelse och balans på de olika sidorna. Djupet och rörelsen åstadkoms genom bilder med mycket djup och rörelse i, och balansen uppnås både i bilderna och i en kombination med bild och text. Designprinciperna är liknande för framsidan och de olika undersidorna.
 
 2. Antoine Girard
 
-Webbplatsens syfte är huvudsakligen till för att visa upp Antoines olika projekt/äventyr som han genomfört. Oklart om webbplatsen även har något mål utöver detta. Det som kännetecknar webbplatsen är dess mörka färgval tillsammans med många bilder, både stora och små, där bakgrundsbilden som används på alla sidor byts ut med ca 4 sekunders mellanrum. Jag upplever att designen som är på webbplatsen ger en känsla av att Antoine är en mycket aktiv och äventyrslysten person, då den är i konstant förändring tack vare de olika bakgrundsbilderna. Detta är troligen ett av syftena med designen.
+<picture class="picture">
+    <img src="%base_url%/image/03_design/antoinegirard.webp?w=1200" alt="Antoine Girard startsida">
+</picture>
+
+
+Webbplatsens syfte är huvudsakligen till för att visa upp Antoines olika projekt/äventyr som han genomfört. Oklart om webbplatsen även har något mål utöver detta. Det som kännetecknar webbplatsen är dess mörka färgval tillsammans med många bilder, både stora och små, där bakgrundsbilden som används på alla sidor byts ut med ca 4 sekunders mellanrum. Det ligger även ett filter över bakgrundsbilderna som ger de en viss textur. Jag upplever att designen som är på webbplatsen ger en känsla av att Antoine är en mycket aktiv och äventyrslysten person, då den är i konstant förändring tack vare de olika bakgrundsbilderna. Detta är troligen ett av syftena med designen.
 
 De designprinciper som får webbplatsen sin känsla är hur man har jobbat med rörelse och kontrast. Rörelsen ges genom bilder som är tagna i rörelse, samtidigt som bilder också byts ut vilket i sin tur också ger en känsla av rörelse. På toppen av webbplatsen är det även en linje i rörelse som börjar om efter bytet utav varje bild, en liten detalj men som ger ännu mer rörelse åt webbplatsen. Kontrasten mellan den svarta bakgrundsfärgen och de ljusa bilderna gör även att bilderna "poppar" mer. Designprinciperna är liknande för framsidan och de olika undersidorna.
 
 3. Pal Takats
+
+<picture class="picture">
+    <img src="%base_url%/image/03_design/paltakats.webp?w=1200" alt="Pal Takats startsida">
+</picture>
 
 Webbplatsens syfte är att visa vem Pal är och vad han har för erfarenheter, samt att fungera som en kalender för de kurser han har och även visa vad han mer kan erbjuda i form av kurser eller uppvisning. Designen består av en bakgrundsbild i form av olika passbilder/stämplar och en header som byter bild med ca 4-5 sekunders mellanrum. Själva innehållet är uppdelat i en eller två kolumner och ligger ovanpå själva bakgrundsbilden och man använder sig sparsamt utav färger. Designen på webbplatsen upplever jag ger en handgjord/papperskänsla och av en person som reser mycket. Jag vill tro att ge känslan av en person i rörelse är medvetna, då Pal har kurser över hela världen.
 
@@ -60,21 +73,18 @@ En intressant sak var att även om Pal och Antoine båda hade bilder som byttes 
 
 Den slutsats jag gör av denna lilla studie, är att en webbplats som använder sig mer utav olika designprinciper och som framförallt verkar göra mer medvetna val angående dem också ser bättre ut. Denna slutsats når man rimligtvis även utan denna studie, men när man nu jämfört olika webbplatser som verkar ha jobbat olika mycket med det blir det desto tydligare.
 
+Min egen webbplats
+-----------------------
 
+Min egen webbplats mörka grundtema har mörkgrön bakgrundsfärg med en header och footer som skiljer sig med en ljusare grön färg och en avgränsande ljus linje. Header har en rund logo i form av en rund bild som är något större än headern i sig, men som sedan blir mindre när skärmupplösningen minskar. En orange/rosa färg återkommer på flera sidor bland annat på bilder och när man "hovrar" över länkar i headern och footern.
 
+Känslan som webbplatsen ger är lugn och harmonisk tack vare sitt gröna färgval som representerar liv och harmoni [3]. Användandet av bilder som bland annat består av den orange/rosa färgen förstärker den känslan samtidigt som de får bilderna att stå ut. På desktop upplever jag att det även skapas ett visst djup på webbplatsen.
 
-Min egen webbplats mörka grundtema som används har mörkgrön bakgrundsfärg med en header och footer som skiljer sig med en ljusare grön färg och en avgränsande ljus linje. Header har en rund logo i form av en rund bild som är något större än headern i sig, men som sedan blir mindre när skärmupplösningen minskar. En orange/rosa färg återkommer på flera sidor bland annat på bilder och när man "hovrar" över länkar i headern och footern.
+Den designprincip som ger sidan sitt utseende och design är dess symmetri eller balans där delar ej är symmetriska. Ett exempel på symmetrin är hur text på sidan har samma bredd överallt, och hur bilder är placerade symmetriskt i till exempel galleriet eller på analys-sidan. I headern där det inte är symmetriskt balanseras istället bilden upp med länkar på motsatt sida. Det är även headern (och delvis footern) som jag anser skapar ett djup på sidan där storleken eller proportionen på bilden samt de skuggade linjer som omger den gör att den står ut något från resten av sidan. De nämnda principerna återkommer på alla sidor.
 
-Känslan som webbplatsen ger är lugn och harmonisk tack vare sitt gröna färgval som representerar liv och harmoni [3]. Användandet av bilder som består av den orange/rosa färgen förstärker den känslan samtidigt som de får bilderna att stå ut. På desktop upplever jag att det även skapas ett visst djup på webbplatsen.
+Det triadiska färgschemat jag valde var först anpassat efter den ljusa stilen på webbplatsen. Samma färgschema används på den mörka sidan där det blev mycket bättre och därför bytte jag grundtema till mörkt istället. Men man kan jobba bättre med hur färgerna används för att få de att passa ihop bättre, speciellt på den ljusa varianten av webbplatsen. Kan även jobba mer med placeringen av element som t ex på de enskilda teknologisidorna där listan över alla teknologier fångar uppmärksamheten före själva innehållet på respektive sida. Typografin kan förbättras för läsbarheten och vissa av bilderna i galleriet kan bytas ut eller placeras om för att få galleriet att kännas ännu mer symmetriskt/balanserat i färgerna.
 
-Den designprincip som ger sidan sitt utseende och design är dess symmetri eller balans där delar ej är symmetriska. Ett exempel på symmetrin är hur text på sidan har samma bredd överallt, och hur bilder är placerade symmetriskt i till exempel galleriet. I headern där det inte är symmetriskt balanseras istället bilden upp med länkar på motsatt sida. Det är även headern (och delvis footern) som skapar ett djup på sidan där storleken eller proportionen på bilden samt de skuggade linjer som omger den gör att den står ut något från resten av sidan. De nämnda principerna återkommer på alla sidor.
-
-Färgschemat var från början triadiskt och anpassat efter den ljusa stilen på webbplatsen. Samma färgschema används på den mörka sidan där det blev mycket bättre och därför bytte jag grundtema till mörkt istället. Men man kan jobba bättre med hur färgerna används för att få de att passa ihop bättre, speciellt på den ljusa varianten av webbplatsen. Annars skulle jag säga att jag är ganska nöjd med hur webbplatsen ser ut då, men man kan jobba mer med placeringen av element som t ex på de enskilda teknologisidorna där listan över alla teknologier fångar uppmärksamheten före själva innehållet på respektive sida. Vissa av bilderna i galleriet kan bytas ut eller placeras om för att få galleriet att kännas mer symmetriskt. 
-
-Jag planerar att genomföra alla dessa förändringar.
-
-Finns det uppdateringar du kan göra på din sida sett utifrån vad du märkt av under din analys?
-Notera uppdateringarna du gör, eller väljer att inte göra.
+Jag planerar inte att genomföra alla dessa förändringar i dagsläget för även om det skulle förbättra designen, så känner jag inte att det är nödvändigt. Men jag kommer att placera om bilderna i galleriet, även om de ändringar jag helst skulle vilja göra som att inte ha samma storlek på alla bilderna inte är möjligt så som jag tolkar ett av kraven i kursmoment 5 ("2. varje “box” i gridet ska ladda in en bild.").
 
 Referenser
 -----------------------

@@ -1,6 +1,7 @@
 /* Gallery css */
 
 .grid.gallery-wrapper {
+    @include zoom-picture;
 
     grid-template-rows: 100px repeat(4, auto);
     margin-bottom: 4rem;

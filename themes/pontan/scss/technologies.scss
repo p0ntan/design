@@ -19,6 +19,13 @@
     }
 }
 
+@mixin zoom-picture {
+    a:hover img {
+        scale: 1.15;
+        transition: scale 5s;
+    }
+}
+
 .grid {
     @include grid;
     grid-template-columns: repeat(3, 1fr);
@@ -29,14 +36,16 @@
 .grid h1 {
     grid-column: span 3;
     justify-self: center;
-    font-size: 4em;
     margin: auto;
 }
 
 .grid-box {
+    @include zoom-picture;
+    
     height: 200px;
     position: relative;
     overflow: hidden;
+    border-radius: 5px;
 
     .header-grid {
         position: absolute;
@@ -110,10 +119,10 @@
 }
 
 .grid-box:hover {
-    box-shadow: 0 0 5px 1px rgba($font-color, 0.3);
+    box-shadow: 0 0 20px 1px rgba($font-color, 0.2);
     scale: 1.05;
     z-index: 11;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 /* Technology */
@@ -155,10 +164,6 @@
         .grid-box,
         h1 {
             grid-column: span 1;
-        }
-
-        h1 {
-            font-size: 2em;
         }
 
         > * {
