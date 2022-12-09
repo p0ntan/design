@@ -18,7 +18,7 @@ Urvalet gjordes baserat på mitt eget intresse för skärmflygning/paragliding, 
 <br>Chrigel Maurer är flerfaldig vinnare av Redbull X-Alps [1], en av världens tuffaste äventyrstävlingar. Han klassas av många som världens bästa paraglidingpilot.
 
 2. https://www.antoinegirard.fr/
-<br>Antoine Girard besitter höjdrekordet för skärmflyg [2], där han i 2021 flög på hela 8407 meter över havet. Han är en av få, om inte den enda, som genomför dessa rekordförsök utan syrgas.
+<br>Antoine Girard besitter höjdrekordet för skärmflyg [2], där han i 2021 flög på hela 8407 meter över havet.
 
 3. https://paltakats.com/
 <br>Pal Takats är en världspilot inom flera kategorier, där han bland annat tidigare varit flerfaldig världscupvinnare i ACRO-flygning. Pals meritlista är lång och han har slagit flertalet rekord och varit med och utvecklat ACRO-sporten till vad den är idag [3].
