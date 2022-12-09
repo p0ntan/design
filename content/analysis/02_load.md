@@ -42,7 +42,7 @@ För respektive webbplats användes startsidan, webbplatsens sportsida samt kult
 </picture>
 
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRH0U5F9i3SpnYjen8WS2AMqkIpOjU7iKyUzTO0ygA5Fm4ONJBLjyEBkh5XenhlEhI01Kao4RYhks-7/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" class="embed-data"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRH0U5F9i3SpnYjen8WS2AMqkIpOjU7iKyUzTO0ygA5Fm4ONJBLjyEBkh5XenhlEhI01Kao4RYhks-7/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" title="SVT data" class="embed-data"></iframe>
 
 SVT:s nyhetssite laddar de olika sidornas innehåll inom 2-3 sekunder, laddar mellan 40-60 resurser och använder under en MB data vid överföringen vilket gör att alla sidor laddar snabbt och hela sidan är klar ungefär samtidigt. Spontant ser jag ingen anledning till förbättring utöver PageSpeeds förslag att "reducera JavaScript som inte används".
 
@@ -54,7 +54,7 @@ När en AdBlocker aktiverades märktes ingen direkt skillnad förutom en liten �
     <img src="%base_url%/image/02_load/omni-load.webp?w=1000" alt="Omni startsida">
 </picture>
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRH0U5F9i3SpnYjen8WS2AMqkIpOjU7iKyUzTO0ygA5Fm4ONJBLjyEBkh5XenhlEhI01Kao4RYhks-7/pubhtml?gid=157068620&amp;single=true&amp;widget=true&amp;headers=false" class="embed-data"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRH0U5F9i3SpnYjen8WS2AMqkIpOjU7iKyUzTO0ygA5Fm4ONJBLjyEBkh5XenhlEhI01Kao4RYhks-7/pubhtml?gid=157068620&amp;single=true&amp;widget=true&amp;headers=false" title="Omni data" class="embed-data"></iframe>
 
 Omni:s nyhetssite laddar DOM-content relativt fort, oftast under en sekund, men däremot är sidans laddningstid långsammare och där den upplevda laddningstiden (slutförd i tabellerna) är än långsammare. Sidan laddar 132-157 resurser och överför mellan 1,95-3,37 MB data. Då många resurser laddas, därav många bilder, skulle webbplatsen kunna jobba mer med komprimering av bilder för att spara data som behöver överföras till en besökare.
 
@@ -66,7 +66,7 @@ Värt att notera är att med en AdBlocker aktiverad förbättras alla mätvärde
     <img src="%base_url%/image/02_load/expressen-load.webp?w=1000" alt="Expressen startsida">
 </picture>
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRH0U5F9i3SpnYjen8WS2AMqkIpOjU7iKyUzTO0ygA5Fm4ONJBLjyEBkh5XenhlEhI01Kao4RYhks-7/pubhtml?gid=1774099255&amp;single=true&amp;widget=true&amp;headers=false" class="embed-data"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRH0U5F9i3SpnYjen8WS2AMqkIpOjU7iKyUzTO0ygA5Fm4ONJBLjyEBkh5XenhlEhI01Kao4RYhks-7/pubhtml?gid=1774099255&amp;single=true&amp;widget=true&amp;headers=false" title="Expressen data" class="embed-data"></iframe>
 
 Expressen:s webbplats laddar sidans DOM-content likt Omni runt en sekund, men där den upplevda laddningstiden är desto långsammare då sidan innehåller mycket externt innehåll. Antal resurser som laddas är mellan 232-245 stk och mängden data som överförs ligger mellan 2,5-3,5 MB. Sett enbart till prestanda skulle en förbättring var att begränsa mängden externt innehåll, men är kanske inte möjligt då detta är en inkomstkälla till webbplatsen.
 

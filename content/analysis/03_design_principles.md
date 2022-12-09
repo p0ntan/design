@@ -67,7 +67,7 @@ Analys
 
 Även om alla de tre webbplatserna tillhör olika topputövare inom skärmflygning, så är det intressant att se hur de ändå har ganska så olika hemsidor. Webbplatsen till Chrigel Maurer känns, jämfört med de andra två, mycket mer genomtänkt och att skaparen av webbplatsen har tänkt mer på designen. Detta då fler element passar ihop eller upplevs mer genomtänkta i sin placering på webbplatsen, samt att användandet av tomma ytor gör att den känns lite modernare. 
 
-Då alla tre webbplatserna har en del bilder tagna ifrån luften får alla en känsla av rörelse och djup, oavsett om detta är medvetet eller ej, då dessa typer av bilder ofta blir väldigt maffiga med mycket djup. Medvetet eller ej, så gör det att hemsidorna känns mer levande med det djupet som ges. Om man skulle byta ut alla bilder till något annat som inte gett samma djup så skulle nog känslan förändras för alla tre de webbplatserna.
+Då alla tre webbplatserna har en del bilder tagna ifrån luften får alla en känsla av rörelse och djup, oavsett om detta är medvetet eller ej, då dessa typer av bilder ofta blir väldigt maffiga med mycket djup. Medvetet eller ej, så gör det att hemsidorna känns mer levande med det djupet som ges. Om man skulle byta ut alla bilder till något annat som inte gett samma djup så skulle nog känslan förändras för alla tre webbplatserna.
 
 En intressant sak var att även om Pal och Antoine båda hade bilder som byttes ut ungefär lika ofta, upplevdes ändå att webbplatsen till Antoine uppleves som något mer i rörelse. Detta är troligen på grund av storleken på bilderna samt den linjen högst upp på sidan som är mer eller mindre i konstant rörelse.
 
