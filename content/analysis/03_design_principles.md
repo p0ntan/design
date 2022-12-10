@@ -34,6 +34,7 @@ Resultat
 1. Chrigel Maurer
 
 <picture class="picture">
+    <source  media="(max-width: 450px)" srcset="%base_url%/image/03_design/chrigelmaurer.webp?w=600">
     <img src="%base_url%/image/03_design/chrigelmaurer.webp?w=1200" alt="Chrigel Maurer startsida">
 </picture>
 
@@ -44,6 +45,7 @@ De designprincip som kännetecknar webbplatsen är hur skaparen har jobbat med d
 2. Antoine Girard
 
 <picture class="picture">
+    <source  media="(max-width: 450px)" srcset="%base_url%/image/03_design/antoinegirard.webp?w=600">
     <img src="%base_url%/image/03_design/antoinegirard.webp?w=1200" alt="Antoine Girard startsida">
 </picture>
 
@@ -55,6 +57,7 @@ De designprinciper som får webbplatsen sin känsla är hur man har jobbat med r
 3. Pal Takats
 
 <picture class="picture">
+    <source  media="(max-width: 450px)" srcset="%base_url%/image/03_design/paltakats.webp?w=600">
     <img src="%base_url%/image/03_design/paltakats.webp?w=1200" alt="Pal Takats startsida">
 </picture>
 

@@ -14,5 +14,5 @@ Vem är då jag? Pontus Åkerberg heter jag, 34 år gammal och uppväxt strax ut
 Fritiden spenderar jag gärna utomhus med någon aktivitet som passar vad dagen har att erbjuda. Har sedan 2011 hållit på med flygsport i form av fallskärmshoppning och skärmflygning, men sedan 2019 är jag endast aktiv inom skärmflyg. Det är en oerhörd frihetskänsla att kunna friflyga helt utan motorer och endast nyttja naturens egna krafter för att ta sig från en punkt till en annan.
 
 <div class="img-wrapper">
-<img src="%base_url%/image/me_italy.jpg" class="garda" alt="Landat vid Gardasjön">
+<img src="%base_url%/image/me_italy.webp" class="garda" alt="Landat vid Gardasjön">
 </div>

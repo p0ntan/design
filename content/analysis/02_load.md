@@ -38,7 +38,8 @@ För respektive webbplats användes startsidan, webbplatsens sportsida samt kult
 1. SVT (besökt 2022-12-01)
 
 <picture class="picture">
-    <img src="%base_url%/image/02_load/svt-load.webp?w=1000" alt="SVT startsida">
+    <source media="(max-width: 450px)" srcset="%base_url%/image/02_load/svt-load.webp?w=600">
+    <img src="%base_url%/image/02_load/svt-load.webp?w=1200" alt="SVT startsida">
 </picture>
 
 
@@ -51,7 +52,8 @@ När en AdBlocker aktiverades märktes ingen direkt skillnad förutom en liten �
 2. Omni (besökt 2022-12-01)
 
 <picture class="picture">
-    <img src="%base_url%/image/02_load/omni-load.webp?w=1000" alt="Omni startsida">
+    <source media="(max-width: 450px)" srcset="%base_url%/image/02_load/omni-load.webp?w=600">
+    <img src="%base_url%/image/02_load/omni-load.webp?w=1200" alt="Omni startsida">
 </picture>
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRH0U5F9i3SpnYjen8WS2AMqkIpOjU7iKyUzTO0ygA5Fm4ONJBLjyEBkh5XenhlEhI01Kao4RYhks-7/pubhtml?gid=157068620&amp;single=true&amp;widget=true&amp;headers=false" title="Omni data" class="embed-data"></iframe>
@@ -63,7 +65,8 @@ Värt att notera är att med en AdBlocker aktiverad förbättras alla mätvärde
 3. Expressen (besökt 2022-12-01)
 
 <picture class="picture">
-    <img src="%base_url%/image/02_load/expressen-load.webp?w=1000" alt="Expressen startsida">
+    <source media="(max-width: 450px)" srcset="%base_url%/image/02_load/expressen-load.webp?w=600">
+    <img src="%base_url%/image/02_load/expressen-load.webp?w=1200" alt="Expressen startsida">
 </picture>
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRH0U5F9i3SpnYjen8WS2AMqkIpOjU7iKyUzTO0ygA5Fm4ONJBLjyEBkh5XenhlEhI01Kao4RYhks-7/pubhtml?gid=1774099255&amp;single=true&amp;widget=true&amp;headers=false" title="Expressen data" class="embed-data"></iframe>
