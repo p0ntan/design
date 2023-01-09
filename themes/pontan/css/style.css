@@ -6676,17 +6676,19 @@ pre code {
   height: auto;
   gap: 2em;
   margin-bottom: 2rem;
+  flex-wrap: wrap;
 }
 .analyze-grid a:hover img {
   scale: 1.15;
   transition: scale 5s;
 }
-.analyze-grid a:nth-child(odd) {
+.analyze-grid a:nth-child(1),
+.analyze-grid a:nth-child(3) {
   max-width: 25%;
   padding-bottom: 35%;
   align-self: center;
 }
-.analyze-grid a:nth-child(even) {
+.analyze-grid a:nth-child(2) {
   max-width: 50%;
   padding-bottom: 60%;
 }
@@ -6756,6 +6758,11 @@ pre code {
 }
 .color-container * {
   margin: 0;
+}
+.color-container picture {
+  margin: auto;
+  width: 100%;
+  height: auto;
 }
 .color-container img {
   margin: auto;

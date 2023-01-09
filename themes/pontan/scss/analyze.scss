@@ -61,7 +61,20 @@
         top: 0;
         left: 0;
     }
+}
 
+.analyze-grid.project {
+    justify-content: center;
+
+    a {
+        max-width: calc(100% / 3);
+        padding-bottom: 45%;
+        align-self: center;
+    }
+
+    a img {
+        filter: grayscale(60%);
+    }
 }
 
 /* 01_colors */
