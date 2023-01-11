@@ -6676,19 +6676,17 @@ pre code {
   height: auto;
   gap: 2em;
   margin-bottom: 2rem;
-  flex-wrap: wrap;
 }
 .analyze-grid a:hover img {
   scale: 1.15;
   transition: scale 5s;
 }
-.analyze-grid a:nth-child(1),
-.analyze-grid a:nth-child(3) {
+.analyze-grid a:nth-child(odd) {
   max-width: 25%;
   padding-bottom: 35%;
   align-self: center;
 }
-.analyze-grid a:nth-child(2) {
+.analyze-grid a:nth-child(even) {
   max-width: 50%;
   padding-bottom: 60%;
 }
@@ -6727,6 +6725,18 @@ pre code {
   width: 100%;
   top: 0;
   left: 0;
+}
+
+.analyze-grid.project {
+  justify-content: center;
+}
+.analyze-grid.project a {
+  max-width: 33.3333333333%;
+  padding-bottom: 45%;
+  align-self: center;
+}
+.analyze-grid.project a img {
+  filter: grayscale(60%);
 }
 
 /* 01_colors */
